@@ -16,6 +16,14 @@ public class MainMenu : MonoBehaviour
     string savePath;
     public LoadingSceenManager loader;
 
+    void Awake()
+    {
+        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        Screen.SetResolution(Display.main.systemWidth,
+                             Display.main.systemHeight,
+                             FullScreenMode.FullScreenWindow);
+    }
+    
     void Start()
     {
         savePath = Application.persistentDataPath + "/save.json";
