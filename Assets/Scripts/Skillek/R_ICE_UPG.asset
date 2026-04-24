@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af7d9a0104ea1649a8947727dffd188, type: 3}
+  m_Name: R_ICE_UPG
+  m_EditorClassIdentifier: 
+  skillName: Ice Upgrade
+  skillID: red_ice_upgrade
+  icon: {fileID: 21300000, guid: f1d44942925cbfd479d102ad404c1fba, type: 3}
+  pickupPrefab: {fileID: 2342655122101831878, guid: 187014dfc075f3e4a81fe9a93dad9fed, type: 3}
+  category: 2
+  incompatibleCategories: 
+  freezeDurationIncrase: 2
+  slowLerpSpeedIncrease: 1
+  freezeThresholdDecrease: 3

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf149a569b2f34448a057ce09ad2cb7, type: 3}
+  m_Name: R_FIRE
+  m_EditorClassIdentifier: 
+  skillName: Fire
+  skillID: red_fire
+  icon: {fileID: 21300000, guid: bde61e57c2ddb8a41a6877471075fb40, type: 3}
+  pickupPrefab: {fileID: 3560269162207538352, guid: da07d3cd3ac89a145a37ab2b3823933c, type: 3}
+  category: 3
+  incompatibleCategories: 03000000

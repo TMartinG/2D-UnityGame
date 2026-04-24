@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fadb456997b0384b89cf35d371846f8, type: 3}
+  m_Name: Y_SPEED
+  m_EditorClassIdentifier: 
+  skillName: Speed+
+  skillID: yellow_speed
+  icon: {fileID: 21300000, guid: 4b17106cc38658244baf957b382dd1f4, type: 3}
+  pickupPrefab: {fileID: 8695262800462532819, guid: e95cf242df2c78a46b6276f95c805530, type: 3}
+  category: 0
+  incompatibleCategories: 
+  speedIncrease: 10

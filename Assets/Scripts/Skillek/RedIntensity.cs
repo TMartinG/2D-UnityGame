@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Skills/Red/Intensity")]
+
+public class RedIntensity : SkillBase
+{
+    public float fireRateIncrease;
+
+    public override void Apply(Lights_Base light)
+    {
+        light.baseFireRate -= fireRateIncrease;
+    }
+
+    public override void Remove(Lights_Base light)
+    {
+        light.baseFireRate += fireRateIncrease;
+    }
+}

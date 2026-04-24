@@ -1,0 +1,3800 @@
+fileFormatVersion: 2
+guid: 8e67dfe2835d0bb46a219ddd49f86dc4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Iranyitas_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1004
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 25.5}
+        - {x: 31, y: 30.5}
+        - {x: 6, y: 30.5}
+        - {x: -6, y: 20.5}
+        - {x: -2, y: 26.5}
+        - {x: -1, y: 30.5}
+        - {x: -31, y: 30.5}
+        - {x: -31, y: 23.5}
+        - {x: -18, y: -12.5}
+        - {x: -29, y: -26.5}
+        - {x: -30, y: -30.5}
+        - {x: 5, y: -30.5}
+        - {x: 6, y: -27.5}
+        - {x: 2, y: -24.5}
+        - {x: 8, y: 0.5}
+      - - {x: 22, y: -1.5}
+        - {x: 22, y: -21.5}
+        - {x: 24, y: -30.5}
+        - {x: 31, y: -30.5}
+        - {x: 31, y: 7.5}
+        - {x: 28, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0.2
+      bones: []
+      spriteID: 21bfd9629922f504fb8a73e2542feeb1
+      internalID: -716729459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1003
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca181d1c3d2428746855debf99f1ed52
+      internalID: 1785600120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1003
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c9d4e99fea19c41bdefa9a2bc22d90
+      internalID: 1604984725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1003
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed748a1cda5ca0a45bf087eb970d3601
+      internalID: -503389333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1003
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1236dfca4969c48a6e6f48bbeae7a1
+      internalID: 787282357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1056
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fa252ef11b31444a9bf8e1c9d4fac2
+      internalID: 62999597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_6
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1003
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4186b76fbc524ea0e506c5a94bd6b
+      internalID: 1087299464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1004
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c613e82fa004520439811d965452d0e5
+      internalID: -1500055988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1003
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaa5e1b1cf2d434cb1ed0ae84c0974d
+      internalID: 1831534108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1003
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7591cc3129c84ee409863bc1f7a26aef
+      internalID: 2011255374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1003
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1f1ed5205884e43a8fd073edc87523
+      internalID: -975668098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_11
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1004
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb22ddef8b6ee5b4eb23968d9ef4e0ff
+      internalID: 969343793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1003
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6ef1901a2974848827726541208aad
+      internalID: 218053866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1003
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b799f2a87daad4db3ce6a0a20c3e70
+      internalID: 635339665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1003
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fdad19250b80f45a90bedc132d78be
+      internalID: -958004947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_15
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1003
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cd6f125d1d544b8e9fe59ae2b9984
+      internalID: 1629017944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_16
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1003
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a9cdd10492454aadb80a6ab4069b0
+      internalID: -1798589982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_17
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1003
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80452013e9e8c04290d47ba410a6246
+      internalID: 2086369255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1004
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cc57cbe5e62eb45a240c9adf375d6c
+      internalID: 1869834422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1004
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d950d5659cbba844909d622bf6df881
+      internalID: 1425827172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_20
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1003
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d0b0bd466e9d14fb1fb0affe5cff5b
+      internalID: -168402298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_21
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1003
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd23f348b20ffe4390da49e4c0b1ff0
+      internalID: -1105448916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 903
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fdcc2a6bacda442a0dcd7504859475
+      internalID: -1372656309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 955
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed61332c733ad4783f234f7da9187d
+      internalID: -561711629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 903
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb0b6ab4b1cd5148bceb1e9381e65f7
+      internalID: 1382232746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_25
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 902
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81512ab304447124eadcb059697fecf4
+      internalID: -1563150168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 902
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff21b96b2b17c747afcb700386f07ef
+      internalID: 896414451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 902
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f939188c163a17d4bb3fb5ecb15dd6c7
+      internalID: 734965414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_28
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 903
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49c5dc7dac2d04b955c873bb7a8025
+      internalID: 1194702097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 882
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e3cc756ba63a945ad91ee9175dbb1c
+      internalID: -540966301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_30
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 902
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48d4356063029c42ae9f4b3659a4ba8
+      internalID: 1375180989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 902
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3620ea625a3bcf74b9e56f6901d02e8c
+      internalID: 1764595773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_32
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 902
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a987cccba93c47049bf4fd3f81d7c7db
+      internalID: -778096571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_33
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 902
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786698499cf6e5f46a097b127b279c27
+      internalID: 657130731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_34
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 902
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17044922dc165204ab71db112c324d3c
+      internalID: -1368142656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_35
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 902
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc0e26fe04ecdc489586642bb8ad6f7
+      internalID: 1268817353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_36
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 902
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0051b665f93e42458e926cecf359c3e
+      internalID: -1788099095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_37
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 903
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae09e49813a2d042a8c4c5dd3b61145
+      internalID: 928342492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_38
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 882
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a7b5d307abf99438cbb7141e544ae6
+      internalID: 385521393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_39
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 882
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de99f252c40eea4eb8af4ad8ce36ec0
+      internalID: 1147634252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_40
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 902
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f449534a8b3dbc344a59cf55e9a653ec
+      internalID: -158352895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_41
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 802
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78f4f4a79f443344a935e2c7ad7edf0
+      internalID: 951504550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_42
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 802
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21effdbf07d06444a7041c4b27b4a40
+      internalID: 568221523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 802
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf2d2a7ba3d00749b6b4bf4f670bd0b
+      internalID: -539150446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 854
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ddd77a833bb3e429a4c96c2061af8d
+      internalID: 767717409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 802
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f187e36f1dfdea74d90b057479b2fcf2
+      internalID: 388792972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_46
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 801
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77662112e92af144bdd7653a1e7a887
+      internalID: -627570720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_47
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 801
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c112ce66588a41a2ad4d60083c3d9
+      internalID: -1474033151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_48
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 802
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617b066c3fa430f49aac81b70269d65c
+      internalID: -557725824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_49
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 801
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad806a46005c1624db4aac124215ba86
+      internalID: -529892913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_50
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 801
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f52dfd7b8915741a4fed3fdd537412
+      internalID: -2101379301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_51
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 839
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f18e2b0dfd6648adc8bb8b3deba8e
+      internalID: 1143285554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_52
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 801
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293a6370674cc7647ad3ee707ef641a9
+      internalID: -1432010712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_53
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 801
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f713c6d8e6d23b4bb53735f4b6c2390
+      internalID: 1633841822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 802
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00e2a138faa0949bf4f50306f08795
+      internalID: -44594890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_55
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 781
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53296b6a8600d19428ea21450b220b82
+      internalID: 1999703019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_56
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 801
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0059a597e868a4048a43f5eb06eaa9b4
+      internalID: -334257562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_57
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 781
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f852ec0af3b214798726f4d41d5e1d
+      internalID: 275400564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_58
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 801
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192f723e177b65944815a66fa6f6487a
+      internalID: 1543335858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_59
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 801
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e00f823ac5854ca07fd183b2679a8
+      internalID: 1536630959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_60
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 801
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53d3ba909dc5ca41983484168021070
+      internalID: 889297970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_61
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 801
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85af69cbf9005e4081fb89fc18767db
+      internalID: -1049718776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_62
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 801
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ebb15a8e586f54da6ccb7f73aa2b33
+      internalID: 602491061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_63
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 700
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797dee376c24d694aabb08c58fce85c1
+      internalID: -2053959745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_64
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 753
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf146300f0a8b4da4184058e6428b5
+      internalID: -1013004933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_65
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 701
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78eabfada5ef344580358ed9cfffd4e
+      internalID: 1598679530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_66
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 720
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83c0e4728d7eb40848f380d67c1207
+      internalID: 1883294834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_67
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 700
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2185e20dc3e4f04bbd4e7fb4a65b318
+      internalID: 1153877482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_68
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 700
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ca6eb56f6b144394e7f1e86cabf3d
+      internalID: -1053121643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_69
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 701
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21478a12919a0e4abb5448ad6a9c32a
+      internalID: -2088471766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 700
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91c9106d0513f2438067914b9baa22c
+      internalID: -2126452082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_71
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 680
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0fe36a68b73264489aea93f7f95c16
+      internalID: 323547395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_72
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 700
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb8f5edca428a41ac722eb9de4a057
+      internalID: 2087139138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_73
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 700
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc103b1cd2e9114fb7d6d2bf4720d6f
+      internalID: -1665136332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_74
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 700
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c862585d2021748b53b399e7404170
+      internalID: 1404553719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_75
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 701
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c24ddf32385c9a4aa722868a1bfc593
+      internalID: 962115203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_76
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 700
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c4db843452cce4f9962d1efcde50e2
+      internalID: 1265339422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_77
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 700
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f2cf1a0b30fb40b12763df1eb175a
+      internalID: -1109104621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_78
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 700
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3f5faf2fbcbcf408f50c33b44af73d
+      internalID: -761397736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_79
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 680
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c0175f91793d4d91d7c79d2d85d39
+      internalID: 1693341845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_80
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 700
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba04fed5425385438fc4f38e3856d5f
+      internalID: 1848309054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_81
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 700
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675916b25fd9beb4ab4d9007958ee2bd
+      internalID: -1834333208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_82
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 700
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0acf0c095d148e43837de9dfa0e7d71
+      internalID: 1186465714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_83
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 701
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e381fc4c526a34240b48748a5cdc0113
+      internalID: 1667576942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_84
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 701
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffb910fd81c9c84b904459601172142
+      internalID: -100257398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_85
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 700
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8986e212b96984b899ad955fd30e19
+      internalID: -1152346399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_86
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 680
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84527be0c05d1d44eac7573c220aac30
+      internalID: -140424560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_87
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 700
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa199430d19904646a52c9654c564d0c
+      internalID: 1456988932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 530
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82020fc025c3048aa995f205fc9d0d
+      internalID: 647535187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_89
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 530
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975d6dc400e1b0244aea50bf3d4e7e0c
+      internalID: -12426542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_90
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 530
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becdab10ea2abf54ea9e8ad9ed875773
+      internalID: -1376207655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_91
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 530
+        width: 459
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4519d414307ae43ae16b929435803f
+      internalID: 748845223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_92
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 530
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae79e3a781b54846b7a3828695bd335
+      internalID: -1230680843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_93
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 530
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38482c884abae7f449a5ae3078313e8d
+      internalID: 1107064080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_94
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 251
+        width: 199
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f963048cf8c7ef342bc228d8b89c8c42
+      internalID: 1305510605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_95
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 289
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc17111a82375648a5e09e3811133e7
+      internalID: -1731003927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_96
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 288
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121de65fe8c8e17419f54c60da8dcdd0
+      internalID: -1221342989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_97
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 289
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d4b436f7dcb14c9fb48a6668c2c46
+      internalID: -1536063682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_98
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 288
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0125052189df5564eb61392679762d47
+      internalID: -1862393463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_99
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 308
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac83dd390fd2e524a895c3b9d4d3ee19
+      internalID: -1852090675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_100
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a8752de88c694ca3bd0d433198c55
+      internalID: -1240511755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 134
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8876314290459478797391831e2ea9
+      internalID: -306367921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_102
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 133
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9594bd0df46d445b7159c751568eae
+      internalID: 1793408945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_103
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 133
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fed6544279a7b49ac0c65b894577f3
+      internalID: 348086688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_104
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 134
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4799040f9c2214388fb74b8a9e9eec
+      internalID: 1015535664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_105
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 186
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85f9aac61487b48ba7d57102da87b3
+      internalID: 1626124091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_106
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 133
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b82baf18fa0946b9d0f83cf0da0f1
+      internalID: -2059536633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_107
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 134
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81cc63f103573946b6d8ce4493fb33c
+      internalID: -568822350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_108
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 133
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37252287edbcb7e4296946dbae7ad8a7
+      internalID: 1664163025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_109
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 134
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a90fd34154a8b41beadebe3c0ca4e5
+      internalID: 937800749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_110
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 20
+        width: 110
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88d595baff09a6439f6927549d7a57a
+      internalID: -1056619542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_111
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 164
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9514818bda6819a4b9b9f823b361baec
+      internalID: -383936180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_112
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 163
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3d2abe39ae8d44e80f1b6a62a84776
+      internalID: 1678355470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_113
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 163
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265191b87118f184482bbfb5fbb16405
+      internalID: -117913194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_114
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 164
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5fdf56b17bf914a8ec6c4151360c36
+      internalID: -1223520043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_115
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 163
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11058f110c995a342b148a44e171f377
+      internalID: -209445167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_116
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 164
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78498b4555f70904c9d5c1edaccecbfb
+      internalID: -1878044696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_117
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 163
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc304b9385f02845b5deadb382ded62
+      internalID: 741907453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_118
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 164
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa943155508cbd4caad7ada94ae7fb7
+      internalID: 1517170272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_119
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 163
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67f2ee34d925c342822fef2efec2657
+      internalID: -450096516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_120
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 143
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa39ed479d24984489a6588ee4581f81
+      internalID: 1949718837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_121
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 143
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7cf678c1dd4dc4aae4ecb99bfc631e
+      internalID: -1084866311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_122
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 163
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f886f7400ad9f478fe58315673b458
+      internalID: -1505717342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_123
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 163
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd85c485bc7a7841a0c85daeaca4c16
+      internalID: -301221030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_124
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 143
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eb1b017faef9646bc38df4223a5742
+      internalID: 30085926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_125
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 133
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287f50f2ee5293f46802ed6e98e378a2
+      internalID: 24811891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_126
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 133
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990048db705ebec40aae00ab0b9fa2f5
+      internalID: 581348866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 134
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3794c9db0ee86f4f81f8c96807f9333
+      internalID: 822028329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_128
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 134
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05231b8e7ea5cf4697d7ea004182ffc
+      internalID: -930886938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_129
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 133
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad674d23ab2416e44bd8f8a941ef7156
+      internalID: -1636034024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_130
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 63
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659f5c4cb2550b846bb72d26fa3d4b56
+      internalID: -1953875916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_131
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 115
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dc63c0c533daa479e2ac3093387c67
+      internalID: 1455882071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_132
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 63
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8575f237b58aeb14aa8246d13e104048
+      internalID: 1373948266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_133
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 62
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34db52770e25fef4cbf52c3c172c4615
+      internalID: -1610494774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_134
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 62
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d023ed4df2d35814e84f2d10df639f08
+      internalID: -275133635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_135
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 63
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355684ef15500054f999bf3f5277954a
+      internalID: 757043160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_136
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 82
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce700132df9d4418eda62efbfc836b
+      internalID: 1880530883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_137
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 32
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f211f3a85e7d7745874e006fab20bc5
+      internalID: -578701350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_138
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 33
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444df486f44df29418a66bdd065f05ef
+      internalID: -145777018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_139
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 85
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34083fa75377a574f9ae63f79b41ed97
+      internalID: 401625480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_140
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 33
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72332415ef448cd46a6253320b1a2642
+      internalID: 1166678155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_141
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 32
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c5d331db959445a745af01ccd4e8c
+      internalID: -709470906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_142
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 52
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c15d2800d545448795bba050451b5
+      internalID: 940454170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_143
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 63
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e025cf3bf5666408d8de382c332e63
+      internalID: -1787964341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_144
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 42
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715a386c1b76d846946f645ba5a171c
+      internalID: -1066859520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_145
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 62
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d6a5667f680034c8c3f773a78e018f
+      internalID: -1068784786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_146
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 62
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f202141db3e8045a77039dc7b3dc34
+      internalID: -315294999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_147
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 62
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa4ca93d668b6e4e9d5294ecc45c614
+      internalID: 1513941145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_148
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 62
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7ac985b05317442a49599e3db24cb1
+      internalID: 1540573173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_149
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 62
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa915575c6ade684195cc6809485ba22
+      internalID: 1906132594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_150
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 62
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ae72352d2446c4d8b9b5c47c4d4041
+      internalID: -1385988372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_151
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 32
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c5cfb932cedc241aa161cac6f4a430
+      internalID: -132906056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_152
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f313e177b4f94daad309e32c27f88
+      internalID: 1320057819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_153
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 33
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2353a792eca5bbb4eacbb28a3f9035a0
+      internalID: 1792693985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_154
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5641c44fb007a438a1070d965b49fa
+      internalID: 1189103867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_155
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 32
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aae339e53e49e74bab282c07a9ff2d9
+      internalID: 215161773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_156
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 32
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7880a8db12c9249aa7c38215e441c6
+      internalID: 601892873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_157
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 33
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42420e07be95fdb4aa450b252feab0d8
+      internalID: -2089789641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_158
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 12
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f912231792e45bd4db895661f5381dc3
+      internalID: -185713316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_159
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 47
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c2a41052f5aa84cbb1cf3ff1b232b5
+      internalID: -1511109628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_160
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 62
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1c4e67d7ee16469ebd9df0c06836b
+      internalID: -1700635378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_161
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 32
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7227f00d2609c4b85ddcb85a1f1562
+      internalID: -976481811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 681
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef098227c5b6694b98c708663d32899
+      internalID: -1852484220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 1125
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197f2927bb93fc44bb877b3074792095
+      internalID: 1819328598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_164
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 256
+        width: 363
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f65bf3eca5674db0f78ed60646698
+      internalID: 1097271906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iranyitas_165
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 35
+        width: 939
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687b2eef211d3f42ac96ac84def3a84
+      internalID: 1817630263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Iranyitas_0: -716729459
+      Iranyitas_1: 1785600120
+      Iranyitas_10: -975668098
+      Iranyitas_100: -1240511755
+      Iranyitas_101: -306367921
+      Iranyitas_102: 1793408945
+      Iranyitas_103: 348086688
+      Iranyitas_104: 1015535664
+      Iranyitas_105: 1626124091
+      Iranyitas_106: -2059536633
+      Iranyitas_107: -568822350
+      Iranyitas_108: 1664163025
+      Iranyitas_109: 937800749
+      Iranyitas_11: 969343793
+      Iranyitas_110: -1056619542
+      Iranyitas_111: -383936180
+      Iranyitas_112: 1678355470
+      Iranyitas_113: -117913194
+      Iranyitas_114: -1223520043
+      Iranyitas_115: -209445167
+      Iranyitas_116: -1878044696
+      Iranyitas_117: 741907453
+      Iranyitas_118: 1517170272
+      Iranyitas_119: -450096516
+      Iranyitas_12: 218053866
+      Iranyitas_120: 1949718837
+      Iranyitas_121: -1084866311
+      Iranyitas_122: -1505717342
+      Iranyitas_123: -301221030
+      Iranyitas_124: 30085926
+      Iranyitas_125: 24811891
+      Iranyitas_126: 581348866
+      Iranyitas_127: 822028329
+      Iranyitas_128: -930886938
+      Iranyitas_129: -1636034024
+      Iranyitas_13: 635339665
+      Iranyitas_130: -1953875916
+      Iranyitas_131: 1455882071
+      Iranyitas_132: 1373948266
+      Iranyitas_133: -1610494774
+      Iranyitas_134: -275133635
+      Iranyitas_135: 757043160
+      Iranyitas_136: 1880530883
+      Iranyitas_137: -578701350
+      Iranyitas_138: -145777018
+      Iranyitas_139: 401625480
+      Iranyitas_14: -958004947
+      Iranyitas_140: 1166678155
+      Iranyitas_141: -709470906
+      Iranyitas_142: 940454170
+      Iranyitas_143: -1787964341
+      Iranyitas_144: -1066859520
+      Iranyitas_145: -1068784786
+      Iranyitas_146: -315294999
+      Iranyitas_147: 1513941145
+      Iranyitas_148: 1540573173
+      Iranyitas_149: 1906132594
+      Iranyitas_15: 1629017944
+      Iranyitas_150: -1385988372
+      Iranyitas_151: -132906056
+      Iranyitas_152: 1320057819
+      Iranyitas_153: 1792693985
+      Iranyitas_154: 1189103867
+      Iranyitas_155: 215161773
+      Iranyitas_156: 601892873
+      Iranyitas_157: -2089789641
+      Iranyitas_158: -185713316
+      Iranyitas_159: -1511109628
+      Iranyitas_16: -1798589982
+      Iranyitas_160: -1700635378
+      Iranyitas_161: -976481811
+      Iranyitas_162: -1852484220
+      Iranyitas_163: 1819328598
+      Iranyitas_164: 1097271906
+      Iranyitas_165: 1817630263
+      Iranyitas_17: 2086369255
+      Iranyitas_18: 1869834422
+      Iranyitas_19: 1425827172
+      Iranyitas_2: 1604984725
+      Iranyitas_20: -168402298
+      Iranyitas_21: -1105448916
+      Iranyitas_22: -1372656309
+      Iranyitas_23: -561711629
+      Iranyitas_24: 1382232746
+      Iranyitas_25: -1563150168
+      Iranyitas_26: 896414451
+      Iranyitas_27: 734965414
+      Iranyitas_28: 1194702097
+      Iranyitas_29: -540966301
+      Iranyitas_3: -503389333
+      Iranyitas_30: 1375180989
+      Iranyitas_31: 1764595773
+      Iranyitas_32: -778096571
+      Iranyitas_33: 657130731
+      Iranyitas_34: -1368142656
+      Iranyitas_35: 1268817353
+      Iranyitas_36: -1788099095
+      Iranyitas_37: 928342492
+      Iranyitas_38: 385521393
+      Iranyitas_39: 1147634252
+      Iranyitas_4: 787282357
+      Iranyitas_40: -158352895
+      Iranyitas_41: 951504550
+      Iranyitas_42: 568221523
+      Iranyitas_43: -539150446
+      Iranyitas_44: 767717409
+      Iranyitas_45: 388792972
+      Iranyitas_46: -627570720
+      Iranyitas_47: -1474033151
+      Iranyitas_48: -557725824
+      Iranyitas_49: -529892913
+      Iranyitas_5: 62999597
+      Iranyitas_50: -2101379301
+      Iranyitas_51: 1143285554
+      Iranyitas_52: -1432010712
+      Iranyitas_53: 1633841822
+      Iranyitas_54: -44594890
+      Iranyitas_55: 1999703019
+      Iranyitas_56: -334257562
+      Iranyitas_57: 275400564
+      Iranyitas_58: 1543335858
+      Iranyitas_59: 1536630959
+      Iranyitas_6: 1087299464
+      Iranyitas_60: 889297970
+      Iranyitas_61: -1049718776
+      Iranyitas_62: 602491061
+      Iranyitas_63: -2053959745
+      Iranyitas_64: -1013004933
+      Iranyitas_65: 1598679530
+      Iranyitas_66: 1883294834
+      Iranyitas_67: 1153877482
+      Iranyitas_68: -1053121643
+      Iranyitas_69: -2088471766
+      Iranyitas_7: -1500055988
+      Iranyitas_70: -2126452082
+      Iranyitas_71: 323547395
+      Iranyitas_72: 2087139138
+      Iranyitas_73: -1665136332
+      Iranyitas_74: 1404553719
+      Iranyitas_75: 962115203
+      Iranyitas_76: 1265339422
+      Iranyitas_77: -1109104621
+      Iranyitas_78: -761397736
+      Iranyitas_79: 1693341845
+      Iranyitas_8: 1831534108
+      Iranyitas_80: 1848309054
+      Iranyitas_81: -1834333208
+      Iranyitas_82: 1186465714
+      Iranyitas_83: 1667576942
+      Iranyitas_84: -100257398
+      Iranyitas_85: -1152346399
+      Iranyitas_86: -140424560
+      Iranyitas_87: 1456988932
+      Iranyitas_88: 647535187
+      Iranyitas_89: -12426542
+      Iranyitas_9: 2011255374
+      Iranyitas_90: -1376207655
+      Iranyitas_91: 748845223
+      Iranyitas_92: -1230680843
+      Iranyitas_93: 1107064080
+      Iranyitas_94: 1305510605
+      Iranyitas_95: -1731003927
+      Iranyitas_96: -1221342989
+      Iranyitas_97: -1536063682
+      Iranyitas_98: -1862393463
+      Iranyitas_99: -1852090675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
