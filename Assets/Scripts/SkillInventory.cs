@@ -50,6 +50,7 @@ public class SkillInventory : MonoBehaviour
         {
             data.redSlots.Add(slot.currentSkill != null ? slot.currentSkill.skillID : "");
             data.redActive.Add(slot.isActiveSlot);
+        
         }
         //Debug.Log("Inventory Save Data: "+ data);
         return data;
@@ -75,6 +76,7 @@ public class SkillInventory : MonoBehaviour
                 if (i < data.yellowActive.Count && data.yellowActive[i])
                 {
                     yellowInventorySlots[i].targetLight.AddSkill(skill);
+                    yellowInventorySlots[i].targetLight.activeSkills.Add(skill);
                 }
             }
             else
@@ -102,6 +104,7 @@ public class SkillInventory : MonoBehaviour
                 if (i < data.redActive.Count && data.redActive[i])
                 {
                     redInventorySlots[i].targetLight.AddSkill(skill);
+                    redInventorySlots[i].targetLight.activeSkills.Add(skill);
                 }
             }
             else

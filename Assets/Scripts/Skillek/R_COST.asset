@@ -18,4 +18,4 @@ MonoBehaviour:
   pickupPrefab: {fileID: 5693244628901612078, guid: 57c30e923e41ca74e98cf0f1ae7c2318, type: 3}
   category: 2
   incompatibleCategories: 
-  costReduction: 1
+  costReduction: 2

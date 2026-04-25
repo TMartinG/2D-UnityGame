@@ -139,7 +139,7 @@ public class Player_Movement : MonoBehaviour
             if (isGrounded)
                 jumpRequest = true;
         }
-        if (Input.GetKeyUp(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.U))
         {
             if (!isUIOpen)
             {
@@ -152,7 +152,7 @@ public class Player_Movement : MonoBehaviour
             }
             
         }
-        if (Input.GetKeyUp(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             if (!isUIOpen)
             {

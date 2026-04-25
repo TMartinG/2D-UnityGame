@@ -94,6 +94,7 @@ public class SkillSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         //  Aktív helyek csekkolása
         if (isActiveSlot)
         {
+            Debug.Log(targetLight.CanAddSkill(sourceSkill));
             if (sourceSkill != null && !targetLight.CanAddSkill(sourceSkill))
             {
                 Debug.Log("Nem kompatibilis!");
@@ -105,11 +106,13 @@ public class SkillSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         if (isActiveSlot && currentSkill != null)
         {
             targetLight.RemoveSkill(currentSkill);
+            targetLight.activeSkills.Remove(currentSkill);
         }
 
         if (source.isActiveSlot && source.currentSkill != null)
         {
             source.targetLight.RemoveSkill(source.currentSkill);
+            source.targetLight.activeSkills.Remove(source.currentSkill);
         }
 
         //  Csere
@@ -120,11 +123,14 @@ public class SkillSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         if (isActiveSlot && currentSkill != null)
         {
             targetLight.AddSkill(currentSkill);
+            targetLight.activeSkills.Add(currentSkill);
         }
 
         if (source.isActiveSlot && source.currentSkill != null)
         {
             source.targetLight.AddSkill(source.currentSkill);
+            source.targetLight.activeSkills.Add(source.currentSkill);
+
         }
 
         UpdateUI();
@@ -139,6 +145,7 @@ public class SkillSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         if (isActiveSlot)
         {
             targetLight.RemoveSkill(currentSkill);
+            targetLight.activeSkills.Remove(currentSkill);
         }
 
         // spawn a világba

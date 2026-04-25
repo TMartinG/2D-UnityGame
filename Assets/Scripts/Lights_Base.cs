@@ -46,11 +46,6 @@ public abstract class Lights_Base : MonoBehaviour
     public YellowStatUpdate yellowStatUpdate;
     public RedStatUpdate redStatUpdate;
 
-
-    LightType currentType;
-    Dictionary<LightType, Dictionary<SkillBase, int>> skillStacksByType =
-        new Dictionary<LightType, Dictionary<SkillBase, int>>();
-
     public int WichLaser()
     {
         if (iceEnabled)
@@ -101,8 +96,6 @@ public abstract class Lights_Base : MonoBehaviour
 
         playerCharacter = GetComponentInParent<Player_Character>();
 
-        skillStacksByType[LightType.Yellow] = new Dictionary<SkillBase, int>();
-        skillStacksByType[LightType.Red] = new Dictionary<SkillBase, int>();
     }
 
     public virtual void Activate()
@@ -157,6 +150,9 @@ public abstract class Lights_Base : MonoBehaviour
     {
         foreach (var skill in activeSkills)
         {
+            Debug.Log(newSkill.incompatibleCategories.Contains(skill.category));
+            Debug.Log(skill.incompatibleCategories.Contains(newSkill.category));
+
             // ha az új skill tiltja a régit
             if (newSkill.incompatibleCategories.Contains(skill.category))
                 return false;
@@ -168,15 +164,7 @@ public abstract class Lights_Base : MonoBehaviour
 
         return true;
     }
-    public void RebuildSkills(List<SkillBase> skills)
-    {
-        ClearAllSkills();
 
-        foreach (var skill in skills)
-        {
-            AddSkill(skill);
-        }
-    }
     public void ClearAllSkills()
     {
         foreach (var kvp in skillStacks)
@@ -193,18 +181,4 @@ public abstract class Lights_Base : MonoBehaviour
         redStatUpdate.UpdateStats();
     }
 
-    public List<SkillBase> GetSkills()
-    {
-        List<SkillBase> result = new List<SkillBase>();
-
-        foreach (var kvp in skillStacks)
-        {
-            for (int i = 0; i < kvp.Value; i++)
-            {
-                result.Add(kvp.Key);
-            }
-        }
-
-        return result;
-    }
 }

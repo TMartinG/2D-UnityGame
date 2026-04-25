@@ -22140,9 +22140,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1352056775}
     - target: {fileID: 6206631158338992331, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
+      propertyPath: baseEnergyCost
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206631158338992331, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
       propertyPath: yellowStatUpdate
       value: 
       objectReference: {fileID: 1065181519}
+    - target: {fileID: 6206631158338992331, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
+      propertyPath: activeSkills.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7870216285860506903, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
       propertyPath: light2DHead
       value: 

@@ -77,7 +77,7 @@ public class SaveSystem : MonoBehaviour
 
         // PLAYER
         player.transform.position = data.player.playerPosition;
-        Debug.Log(data.player.playerHP);
+        // Debug.Log(data.player.playerHP);
         player.GetComponent<Player_Character>().playerCurrentHP = data.player.playerHP;
         player.GetComponent<Player_Character>().UpdateHearts();
         player.GetComponent<Player_Movement>().CameraMain.transform.position = data.player.cameraPosition;
@@ -87,7 +87,7 @@ public class SaveSystem : MonoBehaviour
         // INVENTORY
 
         var lights = player.GetComponentsInChildren<Lights_Base>();
-        Debug.Log(lights.Length);
+        //Debug.Log(lights.Length);
         foreach (var light in lights)
         {
             light.Activate(); 
