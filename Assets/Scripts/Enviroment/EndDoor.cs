@@ -16,7 +16,7 @@ public class EndDoor : MonoBehaviour
     private void Update()
     {
 
-        if (playerInside && Input.GetKeyDown(KeyCode.S) && !isTeleporting && playerCharacter.CanEnd())
+        if (playerInside && Input.GetKeyDown(KeyCode.Return) && !isTeleporting && playerCharacter.CanEnd())
         {
             StartCoroutine(Teleport());
         }

@@ -16,7 +16,6 @@ private GameObject obj;
         obj = new GameObject();
         light = obj.AddComponent<TestLight>();
 
-        // UI dependency NULL-okra védelem (különben crash)
         light.yellowStatUpdate = new GameObject().AddComponent<YellowStatUpdate>();
         light.redStatUpdate = new GameObject().AddComponent<RedStatUpdate>();
 
@@ -27,7 +26,7 @@ private GameObject obj;
 
 
     [Test]
-    public void GetDamage_ReturnsBaseValue()
+    public void GetDamageReturnsValue()
     {
         light.baseDamage = 10;
 
@@ -36,7 +35,7 @@ private GameObject obj;
 
 
     [Test]
-    public void GetFireRate_ReturnsBaseValue()
+    public void GetFireRateReturnsValue()
     {
         light.baseFireRate = 2.5f;
 
@@ -45,7 +44,7 @@ private GameObject obj;
 
    
     [Test]
-    public void CanAddSkill_ReturnsTrue_WhenNoConflict()
+    public void CanAddSkillWorks()
     {
         var result = light.CanAddSkill(skill);
 

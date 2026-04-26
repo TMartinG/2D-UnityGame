@@ -58,7 +58,7 @@ public class StatUITest
 
 
     [Test]
-    public void Yellow_ExplosionEnabled_ShowsText()
+    public void ExplosionTextShows()
     {
         yellowLight.explosionEnabled = true;
 
@@ -68,7 +68,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Yellow_ExplosionDisabled_HidesText()
+    public void ExplosionTextHides()
     {
         yellowLight.explosionEnabled = false;
 
@@ -78,7 +78,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Yellow_Stats_AreSetCorrectly()
+    public void YellowStatsAreSetCorrectly()
     {
         yellowLight.baseDamage = 10;
         yellowLight.baseFireRate = 2;
@@ -95,7 +95,7 @@ public class StatUITest
 
 
     [Test]
-    public void Red_FireEnabled_SetsEnabled()
+    public void FireEnables()
     {
         redLight.fireEnabled = true;
 
@@ -105,7 +105,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Red_FireUpgrade_SetsRedColor()
+    public void FireUpgradeSetsRedColor()
     {
         redLight.fireEnabled = true;
         redLight.upgradedFire = true;
@@ -116,7 +116,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Red_IceUpgrade_SetsCyanColor()
+    public void IceUpgradeSetsCyanColor()
     {
         redLight.iceEnabled = true;
         redLight.upgradedIce = true;
@@ -127,7 +127,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Red_MovementEnabled_ShowsText()
+    public void MovementEnabledShowsText()
     {
         redLight.betterMovementEnabled = true;
 
@@ -137,7 +137,7 @@ public class StatUITest
     }
 
     [Test]
-    public void Red_Stats_AreUpdatedCorrectly()
+    public void RedStatsAreUpdatedCorrectly()
     {
         redLight.baseDamage = 20;
         redLight.baseFireRate = 3;

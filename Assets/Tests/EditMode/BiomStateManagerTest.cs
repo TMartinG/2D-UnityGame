@@ -20,14 +20,13 @@ public class BiomStateManagerTest : TestBase
             manager.biomesPrefabs[i] = new GameObject($"Prefab_{i}");
         }
 
-        // Awake manuális hívása (mert edit-mode test)
         manager.Awake();
 
         return manager;
     }
 
     [Test]
-    public void Awake_CreatesBiomes_AndDisablesThem()
+    public void BiomsCreatedAndDeactivated()
     {
         var manager = CreateManager(3);
 
@@ -41,7 +40,7 @@ public class BiomStateManagerTest : TestBase
     }
 
     [Test]
-    public void SetBiome_ActivatesOnlyCorrectIndex()
+    public void ActivateCorrectBiome()
     {
         var manager = CreateManager(3);
 
@@ -53,7 +52,7 @@ public class BiomStateManagerTest : TestBase
     }
 
     [Test]
-    public void SetCurrentBiome_SetsReferenceCorrectly()
+    public void SetCurrentBiomeCorrectly()
     {
         var manager = CreateManager(2);
 
@@ -63,7 +62,7 @@ public class BiomStateManagerTest : TestBase
     }
 
     [Test]
-    public void ApplyWorldStateToBiome_DoesNotCrash()
+    public void ApplyWorldStateToBiome()
     {
         var manager = CreateManager(1);
 

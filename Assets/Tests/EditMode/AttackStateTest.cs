@@ -52,7 +52,7 @@ public class AttackStateTest : TestBase
     }
 
     [Test]
-    public void Enter_SetsEnemyStateToAttacking()
+    public void AttackOnEner()
     {
         attackState.Enter();
 
@@ -60,7 +60,7 @@ public class AttackStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerVisible_AttacksPlayer()
+    public void UpdateWhenPlayerVisible()
     {
         vision.canSee = true;
         playerGO.transform.position = new Vector3(2f, 0f, 0f);
@@ -72,7 +72,7 @@ public class AttackStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerVisible_UpdatesLastSeenPosition()
+    public void UpdatesLastSeenPosition()
     {
         vision.canSee = true;
         playerGO.transform.position = new Vector3(3f, 1f, 0f);
@@ -85,7 +85,7 @@ public class AttackStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerTooFar_ChangesToChaseState()
+    public void ChangesFromAttackToChaseState()
     {
         vision.canSee = true;
 

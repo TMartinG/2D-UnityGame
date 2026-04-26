@@ -80,7 +80,7 @@ public class Player_Character : MonoBehaviour
             playerMovement.RequestJump();
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             TakeDamage(2);
         }
@@ -89,7 +89,7 @@ public class Player_Character : MonoBehaviour
             Heal(2);
             AddRedEnergy(100f);
             AddYellowEnergy(100f);
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.B))
         {

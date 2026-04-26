@@ -50,7 +50,7 @@ public class ChaseStateTest : TestBase
     }
 
     [Test]
-    public void Enter_SetsEnemyStateToChasing()
+    public void ChaseOnStart()
     {
         chaseState.Enter();
 
@@ -58,7 +58,7 @@ public class ChaseStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerVisible_StoresLastSeenPosition()
+    public void UpdateWhenPlayerVisibleAndStoresLastSeenPosition()
     {
         vision.canSee = true;
         playerGO.transform.position = new Vector3(5f, 2f, 0f);
@@ -71,7 +71,7 @@ public class ChaseStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerInRange_ChangesToAttackState()
+    public void ChangesFromChaseToAttackState()
     {
         vision.canSee = true;
 
@@ -86,7 +86,7 @@ public class ChaseStateTest : TestBase
     }
 
     [Test]
-    public void FixedUpdate_BasicEnemy_UsesMoveTo()
+    public void BasicEnemyUsesMoveTo()
     {
         enemy.enemy_Type = EnemyType.basic;
         playerGO.transform.position = new Vector3(3f, 0f, 0f);
@@ -98,7 +98,7 @@ public class ChaseStateTest : TestBase
     }
 
     [Test]
-    public void FixedUpdate_FlyingEnemy_UsesMoveToSearch()
+    public void FlyingEnemyUsesMoveToSearch()
     {
         enemy.enemy_Type = EnemyType.flying;
         playerGO.transform.position = new Vector3(4f, 1f, 0f);

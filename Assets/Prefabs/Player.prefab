@@ -5199,7 +5199,7 @@ MonoBehaviour:
   range: 10
   lifeTime: 2
   baseDamage: 2
-  baseEnergyCost: 2
+  baseEnergyCost: 4
   baseFireRate: 1
   baseSpeed: 20
   explosionEnabled: 0
@@ -5218,6 +5218,8 @@ MonoBehaviour:
   slowLerpSpeed: 2
   freezeThreshold: 5
   playerMovement: {fileID: 8740115335986145857}
+  light2DFlash: {fileID: 1744647851143281337}
+  light2DHead: {fileID: 5717796673163504523}
   activeSkills: []
   yellowStatUpdate: {fileID: 0}
   redStatUpdate: {fileID: 0}
@@ -49976,16 +49978,15 @@ MonoBehaviour:
   energyRegenRate: 10
   regenDelayYellow: 2
   regenDelayRed: 2
-  player_MaxHP: 0
-  player_CurrentHP: 0
-  player_Yellow_MaxEnergy: 100
-  player_Yellow_CurrentEnergy: 100
-  player_Red_MaxEnergy: 100
-  player_Red_CurrentEnergy: 100
-  player_Light_MaxEnergy: 100
-  player_Light_CurrentEnergy: 100
-  Dummy: {fileID: 2260494778435470869, guid: f1d435a41c4c5bb4fbdf3478da025fee, type: 3}
-  HP_Hearts:
+  playerMaxHP: 0
+  playerCurrentHP: 0
+  playerYellowMaxEnergy: 100
+  playerYellowCurrentEnergy: 100
+  playerRedMaxEnergy: 100
+  playerRedCurrentEnergy: 100
+  playerLightMaxEnergy: 100
+  playerLightCurrentEnergy: 100
+  heartsSymbol:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -49997,10 +49998,8 @@ MonoBehaviour:
   damageCooldown: 1
   headSpriteRenderer: {fileID: 8840289474046538127}
   bodySpriteRenderer: {fileID: 4754417320099368211}
-  gkey: {fileID: 0}
+  gKey: {fileID: 0}
   oKey: {fileID: 0}
-  hasGKey: 0
-  hasOKey: 0
   currentBiomeIndex: 1
 --- !u!114 &8740115335986145857
 MonoBehaviour:
@@ -50037,9 +50036,9 @@ MonoBehaviour:
   characterEye: {fileID: 3168338008390587875}
   characterLight: {fileID: 7267519330176305166}
   CameraMain: {fileID: 0}
-  CameraScript: {fileID: 0}
+  cameraScript: {fileID: 0}
   maxCameraSize: 15
-  PlayerCrosshair: {fileID: 0}
+  playerCrosshair: {fileID: 0}
   animator: {fileID: 9115846347752224647}
   maxMoveSpeed: 4
   maxHeadMoveSpeed: 10
@@ -65243,6 +65242,8 @@ MonoBehaviour:
   slowLerpSpeed: 2
   freezeThreshold: 5
   playerMovement: {fileID: 8740115335986145857}
+  light2DFlash: {fileID: 6513370751126955747}
+  light2DHead: {fileID: 1659529555083280116}
   activeSkills: []
   yellowStatUpdate: {fileID: 0}
   redStatUpdate: {fileID: 0}
@@ -65336,7 +65337,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 05427aeb29ed586449f74aa91439dbd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -25,7 +25,7 @@ public class PlayerCameraTest
     }
 
     [Test]
-    public void SetBoundsBack_ResetsBounds()
+    public void CameraSetBoundBack()
     {
         cam.minX = 10;
         cam.maxX = 20;
@@ -41,7 +41,7 @@ public class PlayerCameraTest
     }
 
     [Test]
-    public void SetBounds_AppliesZoneValues()
+    public void SetBoundsAppliesZoneValues()
     {
         var zoneObj = new GameObject();
         var zone = zoneObj.AddComponent<Camera_Zone>();
@@ -59,7 +59,7 @@ public class PlayerCameraTest
     }
 
     [Test]
-    public void LateUpdate_DoesNothing_WhenTargetNull()
+    public void LateUpdateDoesNothingWhenTargetNull()
     {
         typeof(Player_Camera)
             .GetField("target", BindingFlags.NonPublic | BindingFlags.Instance)
@@ -72,7 +72,7 @@ public class PlayerCameraTest
     }
 
     [Test]
-    public void Camera_ClampsPositionCorrectly()
+    public void CameraClampsPositionCorrectly()
     {
         cam.minX = 0;
         cam.maxX = 5;

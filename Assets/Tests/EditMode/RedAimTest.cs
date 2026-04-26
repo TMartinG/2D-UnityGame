@@ -29,7 +29,7 @@ public class RedAimTest
     }
 
     [Test]
-    public void ResetLaser_SetsPositions()
+    public void ResetLaserSetsPositions()
     {
         aim.ResetLaser();
 
@@ -38,7 +38,7 @@ public class RedAimTest
     }
 
     [Test]
-    public void FillLists_CollectsParticles()
+    public void FillListsCollectsParticles()
     {
         var child = new GameObject();
         child.transform.parent = aim.endVFX.transform;
@@ -52,7 +52,7 @@ public class RedAimTest
     }
 
     [Test]
-    public void VFX_Start_Stop_Works()
+    public void RedVFXWorks()
     {
         aim.StartVFX();
         Assert.IsTrue(aim.particles.Count >= 0);
@@ -63,7 +63,7 @@ public class RedAimTest
 
 
     [Test]
-    public void DamageTimer_InitialState_IsZero()
+    public void RedDamageTimerWorks()
     {
         float timer = (float)aim.GetType()
             .GetField("damageTimer", BindingFlags.NonPublic | BindingFlags.Instance)

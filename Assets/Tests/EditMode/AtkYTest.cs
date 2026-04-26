@@ -23,19 +23,19 @@ public class AtkYTest
     }
 
     [Test]
-    public void Init_SetsShooter()
+    public void InitSetsShooter()
     {
         Assert.NotNull(GetPrivate(projectile, "light_Yellow"));
     }
 
     [Test]
-    public void Shooter_Damage_ReturnsValue()
+    public void ATKHasDamage()
     {
         Assert.AreEqual(2, shooter.GetDamage());
     }
 
     [Test]
-    public void Shooter_Speed_ReturnsValue()
+    public void ATKHasSpeed()
     {
         Assert.AreEqual(10f, shooter.GetSpeed());
     }

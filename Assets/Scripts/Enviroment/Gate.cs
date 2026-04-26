@@ -21,7 +21,7 @@ public class Gate : MonoBehaviour
     private void Update()
     {
 
-        if (playerInside && Input.GetKeyDown(KeyCode.S) && !isTeleporting)
+        if (playerInside && Input.GetKeyDown(KeyCode.Return) && !isTeleporting)
         {
             StartCoroutine(Teleport());
         }

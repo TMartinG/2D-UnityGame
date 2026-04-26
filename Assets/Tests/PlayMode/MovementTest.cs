@@ -58,7 +58,7 @@ public class MovementTest
     }
 
     [Test]
-    public void SetMoveDirection_SetsInput()
+    public void SetMoveDirectionSetsInput()
     {
         Vector2 dir = new Vector2(1, 0);
         player.SetMoveDirection(dir);
@@ -72,7 +72,7 @@ public class MovementTest
     }
 
     [Test]
-    public void UI_Open_Close_ChangesState()
+    public void UIOpenAndCloseChangesState()
     {
         GameObject panel = new GameObject();
         panel.SetActive(false);

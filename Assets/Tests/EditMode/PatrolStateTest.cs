@@ -38,7 +38,7 @@ public class PatrolStateTest : TestBase
     }
 
     [Test]
-    public void Enter_SetsEnemyState()
+    public void StartPatrolling()
     {
         patrolState.Enter();
 
@@ -46,7 +46,7 @@ public class PatrolStateTest : TestBase
     }
 
     [Test]
-    public void FixedUpdate_CallsMoveTo()
+    public void FixedUpdateCallsMoveTo()
     {
         patrolState.Enter();
 
@@ -56,7 +56,7 @@ public class PatrolStateTest : TestBase
     }
 
     [Test]
-    public void Update_WhenPlayerVisible_ChangesState()
+    public void ChangesStateFromPatrolToChase()
     {
         vision.canSee = true;
 

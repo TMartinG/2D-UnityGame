@@ -15,12 +15,11 @@ public class InputTest
         var obj = new GameObject();
         player = obj.AddComponent<Player_Movement>();
 
-        // nagyon fontos: ne fusson semmi Unity logika
         player.enabled = false;
     }
 
     [Test]
-    public void SetMoveDirection_SetsCorrectValue()
+    public void SetMoveDirectionValues()
     {
         Vector2 dir = new Vector2(1, 0);
 
@@ -35,17 +34,14 @@ public class InputTest
     }
 
     [Test]
-    public void RequestJump_WhenGrounded_SetsJumpRequest()
+    public void RequestJump()
     {
-        // Arrange
         typeof(Player_Movement)
             .GetField("isGrounded", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
             .SetValue(player, true);
 
-        // Act
         player.RequestJump();
 
-        // Assert
         var jumpField = typeof(Player_Movement)
             .GetField("jumpRequest", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
 
@@ -55,7 +51,7 @@ public class InputTest
     }
 
     [Test]
-    public void ResetJumpPadBoost_SetsFalse_AfterIteration()
+    public void ResetJumpPadBoost()
     {
         player.isJumpPadBoost = true;
 

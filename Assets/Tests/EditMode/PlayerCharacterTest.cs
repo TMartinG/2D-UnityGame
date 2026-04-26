@@ -53,7 +53,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void Heal_IncreasesHP_ButClamped()
+    public void HealIncreasesHP()
     {
         player.playerCurrentHP = 4;
         player.Heal(5);
@@ -62,7 +62,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void TakeDamage_DecreasesHP()
+    public void TakeDamageDecreasesHP()
     {
         player.playerCurrentHP = 5;
 
@@ -72,7 +72,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void TakeDamage_DoesNothing_WhenInvincible()
+    public void InvincibleWorks()
     {
         player.playerCurrentHP = 5;
         player.SetInvincible(true);
@@ -83,7 +83,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void UseYellowEnergy_DecreasesEnergy_WhenEnough()
+    public void YellowEnergyDecreasesIfCan()
     {
         player.playerYellowCurrentEnergy = 50f;
 
@@ -94,7 +94,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void UseYellowEnergy_ReturnsFalse_WhenNotEnough()
+    public void YellowEnergyDrainWorksCorrectly()
     {
         player.playerYellowCurrentEnergy = 10f;
 
@@ -105,7 +105,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void AddRedEnergy_ClampsToMax()
+    public void AddRedEnergyWorks()
     {
         player.playerRedCurrentEnergy = 90f;
         player.playerRedMaxEnergy = 100f;
@@ -116,7 +116,7 @@ public class PlayerCharacterTest : TestBase
     }
 
     [Test]
-    public void YellowEnergy_UpdatesScale()
+    public void YellowEnergyUpdatesScale()
     {
         player.playerYellowMaxEnergy = 100f;
         player.playerYellowCurrentEnergy = 50f;

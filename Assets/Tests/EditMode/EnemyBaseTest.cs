@@ -25,7 +25,7 @@ public class EnemyBaseTest : TestBase
     }
 
     [Test]
-    public void GetDamaged_DoublesWhenFrozen()
+    public void DoubleDamageWhenFrozen()
     {
         var obj = new GameObject();
         var enemy = obj.AddComponent<TestEnemy>();
@@ -33,18 +33,17 @@ public class EnemyBaseTest : TestBase
 
         enemy.enemy_HP = 10;
 
-        // private field hack
         typeof(Enemy_Base)
             .GetField("isFrozen", BindingFlags.NonPublic | BindingFlags.Instance)
             .SetValue(enemy, true);
 
         enemy.GetDamaged(2);
 
-        Assert.AreEqual(6, enemy.enemy_HP); // 2 * 2 = 4 damage
+        Assert.AreEqual(6, enemy.enemy_HP);
     }
 
     [Test]
-    public void AddFireBuildUp_TriggersBurning()
+    public void Burn()
     {
         var obj = new GameObject();
         var enemy = obj.AddComponent<TestEnemy>();
@@ -63,7 +62,7 @@ public class EnemyBaseTest : TestBase
     }
 
     [Test]
-    public void AddFreezeBuildUp_TriggersFreeze()
+    public void Freeze()
     {
         var obj = new GameObject();
         var enemy = obj.AddComponent<TestEnemy>();
@@ -82,7 +81,7 @@ public class EnemyBaseTest : TestBase
     }
 
     [Test]
-    public void DistanceToPlayer_ReturnsCorrectValue()
+    public void DistanceToPlayerIsCorrect()
     {
         var obj = new GameObject();
         var enemy = obj.AddComponent<TestEnemy>();
@@ -95,11 +94,11 @@ public class EnemyBaseTest : TestBase
 
         float dist = enemy.DistanceToPlayer();
 
-        Assert.AreEqual(5f, dist, 0.01f); // 3-4-5 háromszög
+        Assert.AreEqual(5f, dist, 0.01f);
     }
 
     [Test]
-    public void ApplyDebuff_Fire_SetsValues()
+    public void FireDebuffValuesSetsCorrectly()
     {
         var obj = new GameObject();
         var enemy = obj.AddComponent<TestEnemy>();
@@ -125,7 +124,7 @@ public class TestEnemy : Enemy_Base
 {
     public void ApplyEffect(GameObject target, float amount) { }
 
-    protected override void Start() { } // kikapcsoljuk a heavy initet
+    protected override void Start() { }
 }
 
 

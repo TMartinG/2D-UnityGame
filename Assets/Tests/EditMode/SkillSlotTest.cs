@@ -42,7 +42,7 @@ public class SkillSlotTest
     }
 
     [Test]
-    public void UpdateUI_WhenNull_SetsDefaultTexture()
+    public void DefaulTextureWhenNull()
     {
         slot.currentSkill = null;
         slot.alap = Texture2D.blackTexture;
@@ -53,7 +53,7 @@ public class SkillSlotTest
     }
 
     [Test]
-    public void RemoveSkill_RemovesSkill()
+    public void SkillRemovalWorks()
     {
         var skill = ScriptableObject.CreateInstance<TestSkill>();
         slot.currentSkill = skill;
@@ -64,7 +64,7 @@ public class SkillSlotTest
     }
 
     [Test]
-    public void DropToWorld_DoesNotCrash_WhenPrefabMissing()
+    public void DropToWorldDoesNotCrashWhenPrefabMissing()
     {
         var skill = ScriptableObject.CreateInstance<TestSkill>();
         slot.currentSkill = skill;

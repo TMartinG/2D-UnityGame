@@ -31,7 +31,7 @@ public class SkillModeTest
     }
 
     [Test]
-    public void SetupSkills_CreatesCorrectChunkCount()
+    public void CorrectChunkCount()
     {
         InvokeSetup();
 
@@ -41,7 +41,7 @@ public class SkillModeTest
     
 
     [Test]
-    public void SetupSkills_DoesNotLoseModes()
+    public void SetupSkillsDoesNotLoseModes()
     {
         InvokeSetup();
 
@@ -57,7 +57,7 @@ public class SkillModeTest
 
 
     [Test]
-    public void SetupSkills_RespectsSpawnCounts()
+    public void SetupSkillsRespectsSpawnCounts()
     {
         InvokeSetup();
 

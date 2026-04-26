@@ -16,7 +16,7 @@ public class EnemyStatemachineTest
     }
 
     [Test]
-    public void Initialize_SetsCurrentState_AndCallsEnter()
+    public void EntersStateOnStart()
     {
         var state = new FakeEnemyState();
 
@@ -27,7 +27,7 @@ public class EnemyStatemachineTest
     }
 
     [Test]
-    public void ChangeState_CallsExitOnOldState_AndEnterOnNewState()
+    public void ChangeExitEnterOnNewState()
     {
         var oldState = new FakeEnemyState();
         var newState = new FakeEnemyState();
@@ -41,7 +41,7 @@ public class EnemyStatemachineTest
     }
 
     [Test]
-    public void Update_CallsCurrentStateUpdate()
+    public void UpdateCallsCurrentStateUpdate()
     {
         var state = new FakeEnemyState();
         stateMachine.Initialize(state);
@@ -52,7 +52,7 @@ public class EnemyStatemachineTest
     }
 
     [Test]
-    public void FixedUpdate_CallsCurrentStateFixedUpdate()
+    public void FixedUpdateCallsCurrentStateFixedUpdate()
     {
         var state = new FakeEnemyState();
         stateMachine.Initialize(state);
@@ -63,13 +63,13 @@ public class EnemyStatemachineTest
     }
 
     [Test]
-    public void Update_WithNullState_DoesNotThrow()
+    public void UpdateWithNullStateDoesNotThrow()
     {
         Assert.DoesNotThrow(() => stateMachine.Update());
     }
 
     [Test]
-    public void FixedUpdate_WithNullState_DoesNotThrow()
+    public void FixedUpdateWithNullStateDoesNotThrow()
     {
         Assert.DoesNotThrow(() => stateMachine.FixedUpdate());
     }
