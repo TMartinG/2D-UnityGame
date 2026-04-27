@@ -123,6 +123,15 @@ public class Player_Movement : MonoBehaviour
             lastTapTimeD = Time.time;
         }
 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            RequestJump();
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            System.Diagnostics.Process.Start(Application.persistentDataPath);
+        }
 
         // Input
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -235,7 +244,7 @@ public class Player_Movement : MonoBehaviour
 
         if (jumpRequest)
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 0f); // y sebesség -> reset
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x, 0f);
             rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("jump");
             jumpRequest = false;
@@ -255,15 +264,6 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
-    //Jump/Dodge debughoz!
-    /*void OnDrawGizmos()
-    {
-        if (groundCheck != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
-        }
-    }*/
     void TryDodge(Vector2 direction)
     {
         if (!canDodge || isDodging)

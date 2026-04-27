@@ -68,41 +68,7 @@ public class Player_Character : MonoBehaviour
 
     void Update()
     {
-        #region Player Movement
-
-        // Vízszintes mozgás input
-        float moveX = Input.GetAxisRaw("Horizontal");
-        playerMovement.SetMoveDirection(new Vector2(moveX, 0));
-
-        // Ugrás input
-        if (Input.GetKey(KeyCode.Space))
-        {
-            playerMovement.RequestJump();
-        }
-
-        /*if (Input.GetKeyDown(KeyCode.E))
-        {
-            TakeDamage(2);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Heal(2);
-            AddRedEnergy(100f);
-            AddYellowEnergy(100f);
-        }*/
-
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            System.Diagnostics.Process.Start(Application.persistentDataPath);
-        }
-        
         HandleEnergyRegen();
-
-        #endregion
-
-        
-
-
     }
 
     void HandleEnergyRegen()

@@ -46,7 +46,6 @@ public class Light_Red : Lights_Base
         
     }
 
-    // Hatás az ellenfélre
     public override void ApplyEffect(GameObject target, float amount )
     {
         Enemy_Base enemy = target.GetComponent<Enemy_Base>();
@@ -54,11 +53,11 @@ public class Light_Red : Lights_Base
         {
             if (iceEnabled == true)
             {
-                enemy.ApplyDebuff(DebuffType.freeze, amount, 0, 0, slowLerpSpeed, freezeThreshold, freezeDuration); // Példa: a debuff időtartama a damage értékétől függ
+                enemy.ApplyDebuff(DebuffType.freeze, amount, 0, 0, slowLerpSpeed, freezeThreshold, freezeDuration);
             }
             if (fireEnabled == true)
             {
-                enemy.ApplyDebuff(DebuffType.fire, amount, fireDamage, fireDuration, 0, 0, 0); // Példa: a debuff időtartama a damage értékétől függ
+                enemy.ApplyDebuff(DebuffType.fire, amount, fireDamage, fireDuration, 0, 0, 0);
                 
             }
         }
@@ -66,7 +65,7 @@ public class Light_Red : Lights_Base
 
     private void StartFiring()
     {
-        Debug.Log("Wich laser: " + WichLaser());
+        //Debug.Log("Wich laser: " + WichLaser());
         player_Aim_UpgradedArray[WichLaser()].ResetLaser();
         isFiring = true;
         player_Aim_UpgradedArray[WichLaser()].lineRenderer.enabled = true;
@@ -86,7 +85,6 @@ public class Light_Red : Lights_Base
 
     public override void Deactivate()
     {
-        // fontos: mindig lővés leállítás!
         StopFiring();
         gameObject.SetActive(false);
         if (light2DFlash != null)
