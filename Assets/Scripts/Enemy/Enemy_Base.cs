@@ -62,20 +62,17 @@ public abstract class Enemy_Base : MonoBehaviour
 
     [Header("Patrol State")]
     public EnemyVision vision;
-    //Patrol State
     public float patrolRadius; //4
     public float patrolChangeInterval; //3
 
 
     [Header("Attack State")]
-    //Attack State
     public float attackLostSightTimer; //0
     public float attackLostSightDelay; //2
     public float attackAttackRange;
 
 
     [Header("Chase State")]
-    //Attack State
     public float chaseLostSightTimer; //0
     public float chaseLostSightDelay; //2
     public float chaseAttackRange;
@@ -254,7 +251,7 @@ public abstract class Enemy_Base : MonoBehaviour
 
         HandleFire();
         HandleFreeze();
-        UpdateBurnVisual();
+        UpdateEffectVisual();
     }
 
     void FixedUpdate()
@@ -324,7 +321,7 @@ public abstract class Enemy_Base : MonoBehaviour
     }
     
 
-    public void UpdateBurnVisual()
+    public void UpdateEffectVisual()
     {
         float fireHeat = fireBuildUp / fireBuildUpThreshold;
         fireHeat = Mathf.Clamp01(fireHeat);

@@ -11,7 +11,6 @@ public class GameLoader : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<Rigidbody2D>().simulated = false;
 
-        // azonnal fekete képernyő
         yield return fade.FadeOutInstant();
 
         yield return null;
@@ -37,7 +36,6 @@ public class GameLoader : MonoBehaviour
         // player pozíció fix (ne essen le)
         player.transform.position += Vector3.up * 2f;
 
-        // fade be 
         yield return fade.FadeIn();
         player.GetComponent<Rigidbody2D>().simulated = true;
 
