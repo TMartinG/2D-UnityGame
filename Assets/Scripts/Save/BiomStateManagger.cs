@@ -19,8 +19,6 @@ public class BiomStateManagger : MonoBehaviour
             biomes[i] =  Instantiate(biomesPrefabs[i]);
             biomes[i].SetActive(false);
         }
-        //biomes[0].SetActive(true);
-
         Instance = this;
 
     }

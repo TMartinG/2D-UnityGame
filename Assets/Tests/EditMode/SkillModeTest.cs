@@ -4,7 +4,7 @@ using NUnit.Framework;
 using System.Reflection;
 public class SkillModeTest
 {
-     private GameObject obj;
+    private GameObject obj;
     private SkillModes modes;
 
     [SetUp]

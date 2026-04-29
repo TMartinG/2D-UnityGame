@@ -103,7 +103,6 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
 
-        // A lenyomás
         if (Input.GetKeyDown(KeyCode.A))
         {
             if (Time.time - lastTapTimeA < doubleTapTime)
@@ -113,7 +112,6 @@ public class Player_Movement : MonoBehaviour
             lastTapTimeA = Time.time;
         }
 
-        // D lenyomás
         if (Input.GetKeyDown(KeyCode.D))
         {
             if (Time.time - lastTapTimeD < doubleTapTime)
@@ -128,12 +126,11 @@ public class Player_Movement : MonoBehaviour
             RequestJump();
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
+       /* if (Input.GetKeyDown(KeyCode.B))
         {
             System.Diagnostics.Process.Start(Application.persistentDataPath);
-        }
+        }*/
 
-        // Input
         float moveX = Input.GetAxisRaw("Horizontal");
         moveInput = new Vector2(moveX, 0);
 
@@ -152,12 +149,12 @@ public class Player_Movement : MonoBehaviour
         {
             if (!isUIOpen)
             {
-                    OpenPanel(YupgradePanel);
+                OpenPanel(YupgradePanel);
             }
                 else
             {
-                    ClosePanel(YupgradePanel);
-                    ClosePanel(RupgradePanel);
+                ClosePanel(YupgradePanel);
+                ClosePanel(RupgradePanel);
             }
             
         }
@@ -165,12 +162,12 @@ public class Player_Movement : MonoBehaviour
         {
             if (!isUIOpen)
             {
-                    OpenPanel(RupgradePanel);
+                OpenPanel(RupgradePanel);
             }
             else
             {
-                    ClosePanel(YupgradePanel);
-                    ClosePanel(RupgradePanel);
+                ClosePanel(YupgradePanel);
+                ClosePanel(RupgradePanel);
             }
         }
 

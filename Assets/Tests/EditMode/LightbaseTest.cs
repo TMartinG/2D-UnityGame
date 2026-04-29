@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.TestTools;
 public class LightbaseTest 
 {
-private GameObject obj;
+    private GameObject obj;
     private TestLight light;
     private TestSkill skill;
 
