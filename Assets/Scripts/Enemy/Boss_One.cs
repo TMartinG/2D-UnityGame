@@ -53,7 +53,7 @@ public class Boss_One : Enemy_Base
     protected override void Update()
     {
         base.Update();
-
+        CheckDoor();
         CheckWaveSpawns();
     }
     public override void Die()
@@ -100,5 +100,12 @@ public class Boss_One : Enemy_Base
         }
 
     }
-
+    public void CheckDoor()
+    {
+        if (door == null)
+        {
+            door = GameObject.Find("BOSS1");
+            Debug.Log("YESsssss");
+        }
+    }
 }

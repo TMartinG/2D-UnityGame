@@ -11787,13 +11787,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7886135870361324478, guid: 64279349d77807549bfd63dcddeaed9b, type: 3}
       propertyPath: m_Name
-      value: BOSS2
+      value: BOSSMASODIK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64279349d77807549bfd63dcddeaed9b, type: 3}
+--- !u!1 &1414038593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7886135870361324478, guid: 64279349d77807549bfd63dcddeaed9b, type: 3}
+  m_PrefabInstance: {fileID: 1414038592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1444652379
 GameObject:
   m_ObjectHideFlags: 0
@@ -22065,6 +22070,14 @@ PrefabInstance:
       propertyPath: redEnergyOrb
       value: 
       objectReference: {fileID: 1899522625}
+    - target: {fileID: 5170211227575808168, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
+      propertyPath: firstBossDoor
+      value: 
+      objectReference: {fileID: 1200351704}
+    - target: {fileID: 5170211227575808168, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
+      propertyPath: secondBossDoor
+      value: 
+      objectReference: {fileID: 1414038593}
     - target: {fileID: 5170211227575808168, guid: 1018e69b73c2ef342a8e8fe02ccb5c73, type: 3}
       propertyPath: yellowEnergyOrb
       value: 

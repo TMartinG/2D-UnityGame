@@ -44,7 +44,7 @@ public class BossTwinBrain : MonoBehaviour
 
         maxTotalHP = twin1.maxHP + twin2.maxHP;
         
-        door = GameObject.Find("BOSS2");
+        door = GameObject.Find("BOSSMASODIK");
         door.SetActive(false);
     }
 
@@ -113,7 +113,7 @@ public class BossTwinBrain : MonoBehaviour
     {
         if (door == null)
         {
-            door = GameObject.Find("BOSS2");
+            door = GameObject.Find("BOSSMASODIK");
         }
     }
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5183266414636764862}
   - component: {fileID: 4074188093960239589}
   m_Layer: 0
-  m_Name: BOSS2
+  m_Name: BOSSMASODIK
   m_TagString: Gate1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

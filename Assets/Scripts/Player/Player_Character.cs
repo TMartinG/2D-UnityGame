@@ -34,6 +34,8 @@ public class Player_Character : MonoBehaviour
 
     [SerializeField] float damageCooldown = 1f; // hány másodpercig ne kapjon sebzést
     private bool isInvincible = false;
+    public GameObject firstBossDoor;
+    public GameObject secondBossDoor;
 
     public void SetInvincible(bool value)
     {
@@ -57,6 +59,8 @@ public class Player_Character : MonoBehaviour
         UpdateHearts();
         UpdateYellowEnergyUI();
         UpdateRedEnergyUI();
+        firstBossDoor = GameObject.Find("BOSS1");
+        secondBossDoor = GameObject.Find("BOSSMASODIK");
 
     }
 
@@ -143,6 +147,8 @@ public class Player_Character : MonoBehaviour
 
     public void Die()
     {
+        firstBossDoor.SetActive(true);
+        secondBossDoor.SetActive(true);
         lightManager.lightDict[LightType.Yellow].Activate();
         lightManager.lightDict[LightType.Red].Activate();
         ResetCamera();

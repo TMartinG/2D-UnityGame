@@ -8931,10 +8931,10 @@ MonoBehaviour:
   dialogueLines:
   - This is the cage where Little Sunny is prisoned!
   - To save him you should get the green and orange keys!
-  - You can obtain the keys by defeating 2 strong enemys!
-  - Press "S" near doors to move between areas!
-  - Once you got all the keys come back and press "S" in the middle of the giant
-    door to get in there!
+  - You can obtain the keys by defeating 2 strong enemy!
+  - Press "ENTER" near doors to change area!
+  - 'Once you got all the keys come back! '
+  - Then press "ENTER" in the middle of the giant door to get in there!
   - Good luck!
   dialogueManager: {fileID: 290345788898243944}
 --- !u!58 &3446556425122751520
